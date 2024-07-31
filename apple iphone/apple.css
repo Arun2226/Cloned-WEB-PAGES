@@ -1,0 +1,283 @@
+#outer-div1{
+    position: absolute;
+    height: 35px;
+    width: 100%;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    background-color: rgb(231, 232, 234);
+    margin-top: -8px;
+}
+#outer-div1>div{
+    height: 100%;
+    width: 70%;
+    margin-left:230px;
+    
+    
+   
+}
+#outer-div1 a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+#outer-div1 p,#outer-div1 img{
+    margin: auto;
+}
+#outer-div2{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+#outer-div2>div{
+    height: 100%;
+    width: 70%;
+    margin-left:230px;
+    
+    
+   
+}
+#outer-div2 a{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    line-height: 0%;
+    
+}
+#outer-div2 img{
+    height: 60px;
+    margin-left: 4px;
+}
+#outer-div3{
+    position: absolute;
+    margin-top: 140px;
+    
+    background-color: rgb(231, 232, 234);
+
+    height: 30px;
+    width: 100%;
+}
+#outer-div3 p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#outer-div3 a{
+   
+    text-decoration: none;
+    line-height: 50%;
+}
+#outer-div4{
+    position: absolute;
+    margin-top: 170px;
+    
+    height: 1050px;
+    width: 100%;
+}
+#outer-div4>div>#inner41{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+
+    
+}
+#outer-div4>#inner42{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+
+    
+}
+#outer-div5{
+    position: absolute;
+    margin-top: 1220px;
+    
+    height: 950px;
+    width: 100%;
+}
+#outer-div5>div>#inner51{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    color: white;
+    background: #000;
+
+    
+}
+#outer-div5>#inner52{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    
+}
+#outer-div6{
+    position: absolute;
+    margin-top: 10px;
+    
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+#outer-div6>#inner61{
+    width: 70%;
+    height: 99%;
+ 
+    background: white;
+    
+}
+#outer-div6>#inner61>div{
+    margin-top: 50%;
+    margin-left: 400px;
+}
+#outer-div>#inner62{
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    
+}
+#outer-div7{
+    position: absolute;
+    margin-top: 860px;
+    
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+#outer-div7>#inner72{
+    margin-top: 250px;
+}
+#outer-div8{
+    position: absolute;
+    margin-top: 1550px;
+    
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+#outer-div9{
+    position: absolute;
+    margin-top: 2450px;
+    
+    height: 3750px;
+    width: 100%;
+    
+}
+#outer-div9>h1{
+    margin-left: 40%;
+}
+#outer-div9>#inner91{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 250px;
+    
+
+}
+#outer-div10{
+    position: absolute;
+    margin-top: 6200px;
+    
+    height: 2600px;
+    width: 100%;
+    background-color: antiquewhite;
+    
+}
+#outer-div10>h1{
+  text-align: center;
+}
+#outer-div10>#inner101{
+    display: flex;
+    justify-content: space-around;
+}
+#outer-div10>#inner101>div{
+    
+    height: 500px;
+    width: 48%;
+        background-color: white;
+    text-align: center;
+
+}
+#outer-div10>#inner102{
+   height: 600px;
+   
+   margin-bottom: 100px;
+}
+#outer-div10>#inner102>#in1021>img{
+    height: 600px;
+    width: 100%;
+}
+#outer-div10>#inner102>#in1022{
+    text-align: center;
+    margin-top: -500px;
+}
+#outer-div10>#inner103{
+   height: 600px;
+   
+   margin-bottom: 10px;
+   display: flex;
+   margin: 0px 10px;
+
+}
+#outer-div10>#inner103>div{
+    height: 99%;
+    width: 50%;
+    justify-content:space-around;
+    background-color: white;
+    
+}
+#outer-div10>#inner103>div>img{
+    height: 100%;
+    width: 100%;
+}
+#outer-div10>#inner103>div>div{
+    margin: 200px;
+    margin-left: 400px;
+}
+#outer-div10>#inner104{
+   height: 600px;
+   
+   margin-bottom: 10px;
+   display: flex;
+   margin: 9px 10px;
+
+}
+#outer-div10>#inner104>div{
+    height: 99%;
+    width: 50%;
+    justify-content:space-around;
+    background-color: white;
+    
+}
+#outer-div10>#inner104>div>img{
+    height: 100%;
+    width: 100%;
+}
+#outer-div10>#inner104>div>div{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#footer{
+    position: absolute;
+    margin-top: 8800px;
+    
+    height: 550px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    
+    display: flex;
+    font-size: 10px ;
+}
+#footer>div{
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 50px;
+
+}
+#footer a{
+    text-decoration: none;
+}
+
+
